@@ -1,0 +1,40 @@
+{
+    "name": "angular2-skeleton",
+    "version": "1.0.0",
+    "description": "Lekha's Angular Skeleton project",
+    "scripts": {
+        "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+        "lite": "lite-server",
+        "tsc": "tsc",
+        "tsc:w": "tsc -w"
+    },
+    "license": "UNLICENSED",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lsurasani/angular_practice"
+    },
+    "dependencies": {
+        "@angular/common": "6.0.7",
+        "@angular/compiler": "6.0.7",
+        "@angular/core": "6.0.7",
+        "@angular/forms": "6.0.7",
+        "@angular/http": "6.0.7",
+        "@angular/platform-browser": "6.0.7",
+        "@angular/platform-browser-dynamic": "6.0.7",
+        "@angular/router": "6.0.7",
+        "angular-in-memory-web-api": "0.6.0",
+        "bootstrap": "4.1.1",
+        "core-js": "2.5.7",
+        "reflect-metadata": "0.1.12",
+        "rxjs": "6.2.1",
+        "systemjs": "0.21.4",
+        "zone.js": "0.8.26"
+    },
+    "devDependencies": {
+        "@types/core-js": "2.5.0",
+        "@types/node": "10.5.1",
+        "concurrently": "3.6.0",
+        "lite-server": "2.4.0",
+        "typescript": "2.9.2"
+    }
+}
