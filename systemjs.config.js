@@ -1,7 +1,7 @@
 (function(global) {
     System.config({
         paths: {
-            'npm': 'node_modules/'
+            'npm:': 'node_modules/'
         },
         map: {
             app: 'app',
@@ -26,7 +26,12 @@
                 defaultExtension: 'js',
             },
             rxjs: {
+                main: './index.js',
                 defaultExtension: 'js',
+            },
+            'rxjs/operators': {
+                main: './index.js',
+                defaultExtension: 'js'
             },
             'angular-in-memory-web-api': {
                 main: './index.js',
