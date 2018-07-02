@@ -30,6 +30,7 @@
         "reflect-metadata": "0.1.12",
         "rxjs": "6.2.1",
         "systemjs": "0.21.4",
+        "tether": "1.4.4",
         "zone.js": "0.8.26"
     },
     "devDependencies": {
