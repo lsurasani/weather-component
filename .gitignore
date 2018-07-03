@@ -5,3 +5,9 @@ npm-debug.log
 
 app/*.js.map
 app/*.js
+
+app/weather-widget/component/*.js.map
+app/weather-widget/component/*.js
+
+app/weather-widget/service/*.js.map
+app/weather-widget/service/*.js
